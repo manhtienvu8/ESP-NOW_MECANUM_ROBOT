@@ -1,16 +1,3 @@
-/*
-  4WD Mecanum Wheel Remote Control
-  mec-robot-remote.ino
-  Controls 4-wheel mecanum car base
-  Uses ESP32 TTGO "T-Display" module with integrated TFT display and 2 pushbuttons 
-  Uses ESP-NOW library
-  Uses TFT_eSPI Library by Bodmer - https://github.com/Bodmer/TFT_eSPI
-  Modify User_Setup.h file in library for TTGO-T-Display
-  
-  DroneBot Workshop 2022
-  https://dronebotworkshop.com
-*/
-
 // Include Libraries for ESP-NOW Communications
 #include <esp_now.h>
 #include <WiFi.h>
